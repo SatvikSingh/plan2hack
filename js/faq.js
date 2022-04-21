@@ -10,8 +10,7 @@ function faqSwitch(e){
 
     e.firstElementChild.lastChild.previousElementSibling.style.transform = 'rotate(180deg)'
 
-    header.style.fontWeight = "700"
-  
+    header.firstElementChild.style.fontWeight = "700"
   }
   else 
   {
@@ -20,7 +19,7 @@ function faqSwitch(e){
     content.classList.remove ("show")
     content.classList.add("answer")
     
-    header.style.fontWeight = "400"
+    header.firstElementChild.style.fontWeight = "400"
   
   }
 }
