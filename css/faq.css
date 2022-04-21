@@ -54,12 +54,12 @@ h2
 {
     position: relative;
     margin: 0 -120px;
-    z-index: 3;
+    z-index: 0;
 }
 
  .left-contents::before
 {
-    content: url("images/illustration-box-desktop.svg") ;
+    content: url("../assets/illustration-box-desktop.svg") ;
     position: absolute;
     transform: translateY(78%);
     left:120px;
@@ -71,6 +71,7 @@ h2
 {
     width: 90%;
     margin: auto 0;
+    z-index: 3;
 }
 
 .imgs
@@ -161,7 +162,7 @@ h2
       background-image: none;
   }
   .container::before{
-    content: url("images/illustration-woman-online-mobile.svg") ;
+    content: url("../assets/illustration-woman-online-mobile.svg") ;
     position: relative; 
     top: 0%;
     left: 30%;
@@ -190,7 +191,7 @@ h2
     }
 
      .container::before{
-        content: url("images/illustration-woman-online-mobile.svg") ;
+        content: url("../assets/illustration-woman-online-mobile.svg") ;
         position: absolute; 
     
         left: 10%;
