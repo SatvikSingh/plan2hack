@@ -156,8 +156,8 @@ h2
 
   .container
   {
-      width: 60%;
-      padding: 5rem 2rem 2rem 2rem;
+      width: 75%;
+      padding: 2rem 2rem 2rem 2rem;
       display: block;
       background-image: none;
   }
@@ -165,12 +165,12 @@ h2
     content: url("../assets/illustration-woman-online-mobile.svg") ;
     position: relative; 
     top: 0%;
-    left: 30%;
+    left: 20%;
     
 } 
   .right-contents
   {
-      margin-top: 3rem;
+      margin-top: 1.5rem;
       width: 100%;
   }
 }
@@ -192,7 +192,7 @@ h2
 
      .container::before{
         content: url("../assets/illustration-woman-online-mobile.svg") ;
-        position: absolute; 
+        position: relative; 
     
         left: 10%;
         
@@ -206,7 +206,6 @@ h2
 
     .right-contents{
     
-        padding-top: 5rem;
         width: 100%;
     }
 
