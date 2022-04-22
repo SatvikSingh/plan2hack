@@ -2,90 +2,372 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/faq.css">
   
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/description.css">
+  <link rel="stylesheet" href="css/themes/themes.css">
+  <link rel="stylesheet" href="css/timeline.css">
+
+  <!-- JAVASCRIPT -->
+  <script src="js/faq.js"></script>
+  <script src="js/navbar.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  </link>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </link>
+
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Poppins|Roboto|Source+Sans+Pro&display=swap"
+    rel="stylesheet" />
+
   <title> Plan2Hack </title>
 
 </head>
 <body>
-  <div class="wrapper">
-    <div class="container">
-        <div class="left-contents">
-            <div class="img">
-                    <img src="assets/illustration-woman-online-desktop.svg" alt="" class="desktop">
-                    <img src="assets/illustration-woman-online-mobile.svg" alt=""class="mobile">
+
+
+    <!-- Navbar-->
+
+    <section id="header-section" class="header-section">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">LOGO</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
+            <i class="fa fa-bars"></i></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+            </ul>
             </div>
         </div>
-        
-        <div class="right-contents">
-            <h2>FAQ</h2>
-                <div class="question" onclick="faqSwitch(this)">
-                    <div class="qn-head">
-                        <h4> How many team members can I invite? </h4>
-                        <img src="assets/icon-arrow-down.svg" alt="" class="imgs"> 
-                    </div>
-                    <p class="answer">
-                        Answer to question 1. Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                    </p> 
-                </div>
-                <div class="dividers"></div>
-                <div class="question" onclick="faqSwitch(this)">
-                    <div class="qn-head">
-                        <h4> Can we participate individually ?</h4>
-                        <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
-                    </div>
-                    <p class="answer">
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit
-                    </p>
-                </div>
-                <div class="dividers"></div>
-                <div class="question" onclick="faqSwitch(this)">
-                    <div class="qn-head">
-                        <h4> What is meant by BVPIEEE </h4>
-                        <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
-                    </div>
-                    <p class="answer">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam
-                    </p>
-                </div>
-                <div class="dividers"></div>
-                <div class="question" onclick="faqSwitch(this)">
-                    <div class="qn-head">
-                        <h4> Is there any participation fee ? </h4>
-                        <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
-                    </div>
-                    <p class="answer">
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam.
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, 
-                    </p>
-                </div>
-                <div class="dividers"></div>
-                <div class="question" onclick="faqSwitch(this)">
-                    <div class="qn-head">
-                        <h4> On what basis will the initial screening take place ?</h4>
-                        <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
-                    </div>
-                    <p class="answer">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam.
-                    </p>
-                </div>
-                <div class="dividers"></div>
+        </nav>
+    </section>
+
+
+    <!-- FRONT SECTION -->
+
+    <section id="front-section" class="front-section">
+
+    </section>
+
+    <!-- DESCRIPTION SECTION -->
+
+    <section id="description-section" class="description-section">
+
+    <div class="heading">
+        <h3>PLAN-2-HACK</h3>
+    </div>
+    <div class="container-des">
+        <div class="item" id="item1">
+        <div class="box-head">
+            <h3> Over 500 Teams </h3>
         </div>
-      </div>
-  </div>
+        <div class="main-text">
+            <p>
+            In the third edition of WIEHack we are expecting over 500 teams to take part,
+            comprising of students from various parts of India and the world.
+            </p>
+        </div>
+
+        </div>
+        <div class="item" id="item2">
+        <div class="box-head">
+            <h3>Prize pool worth <br> ₹ 30,00,000</h3>
+        </div>
+        <div class="main-text">
+            <p id="sec-b">
+            The prize pool will comprise of over $ 40,000 (INR 30,00,000) with various positions
+            bagging the different prize cut.
+            </p>
+        </div>
+        </div>
+        <div class="item" id="item3">
+        <div class="box-head">
+            <h3>1000+ Registrations </h3>
+        </div>
+        <div class="main-text">
+            <p>
+            We are expecting healthy amount of registrations in a very short period of time from
+            all over India as well as the world.
+            </p>
+        </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- THEMES -->
+
+    <section id="themes-section" class="themes-section">
+
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <!-- <h2>Themes</h2> -->
+        <div class="card-grid">
+        <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-1.png)"></div>
+            <div class="card__content">
+            <!-- <p class="card__category">Category</p> -->
+            <!-- <div class="bottom-left"> -->
+
+            <h3 class="card__heading">Open Innovation</h3>
+            <!-- </div> -->
+            </div>
+        </a>
+        <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-2.png)"></div>
+            <div class="card__content">
+            <!-- <p class="card__category">Category</p> -->
+            <h3 class="card__heading">Women Safety</h3>
+            </div>
+        </a>
+        <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-3.png)"></div>
+            <div class="card__content">
+            <!-- <p class="card__category">Category</p> -->
+            <h3 class="card__heading">Educational Technology</h3>
+            </div>
+            <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-4.png)"></div>
+            <div class="card__content">
+                <!-- <p class="card__category">Category</p> -->
+                <h3 class="card__heading">Artificial Intelligence</h3>
+            </div>
+            </a>
+            <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-5.png)"></div>
+            <div class="card__content">
+                <!-- <p class="card__category">Category</p> -->
+                <h3 class="card__heading">Financial Technology</h3>
+            </div>
+            </a>
+            <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-6.png)"></div>
+            <div class="card__content">
+                <!-- <p class="card__category">Category</p> -->
+                <h3 class="card__heading">Augmented/Virtual Reality</h3>
+            </div>
+            </a>
+            <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-7.png)"></div>
+            <div class="card__content">
+                <!-- <p class="card__category">Category</p> -->
+                <h3 class="card__heading">Space Technology</h3>
+            </div>
+            </a>
+            <a class="card" href="#">
+            <div class="card__background" style="background-image: url(css/themes/timeline-8.png)"></div>
+            <div class="card__content">
+                <!-- <p class="card__category">Category</p> -->
+                <h3 class="card__heading">Connected Cars</h3>
+            </div>
+            </a>
+            <div>
+    </section>
+
+    <!-- TIMELINE -->
+
+    <section id="timeline-section" class="timeline-section">
+
+        <h1 class="timeline-heading">Timeline</h1>
+        <h2 class="event-timeline-name">Plan2Hack</h2>
+            <div class="timeline">
+                <div class="timeline-container left">
+                <div class="date">15 Dec</div>
+                <i class="icon"></i>
+
+                <div class="content">
+                    <h2 class="agenda">Agenda 1 </h2><h2 class="timing">(time)</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, blanditiis?
+                    </p>
+                </div>
+                </div>
+                <div class="timeline-container right">
+                <div class="date">22 Oct</div>
+                <i class="icon"></i>
+                <div class="content">
+                    <h2 class="agenda">Agenda 2 </h2><h2 class="timing">(time)</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quae!
+                    </p>
+                </div>
+                </div>
+                <div class="timeline-container left">
+                <div class="date">10 Jul</div>
+                <i class="icon"></i>
+                <div class="content">
+                    <h2 class="agenda">Agenda 3 </h2><h2 class="">(time)</h2>
+                    <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, cumque.
+                    </p>
+                </div>
+                </div>
+                <div class="timeline-container right">
+                <div class="date">18 May</div>
+                <i class="icon"></i>
+                <div class="content">
+                    <h2 class="agenda">Agenda 4 </h2><h2 class="timing">(time)</h2>
+                    <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, sint.
+                    </p>
+                </div>
+                </div>
+                <div class="timeline-container left">
+                <div class="date">10 Feb</div>
+                <i class="icon"></i>
+                <div class="content">
+                    <h2 class="agenda">Agenda 5 </h2><h2 class="timing">(time)</h2>
+                    <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, cum?
+                    </p>
+                </div>
+                </div>
+                <div class="timeline-container right">
+                <div class="date">01 Jan</div>
+                <i class="icon"></i>
+                <div class="content">
+                    <h2 class="agenda">Agenda 6 </h2><h2 class="timing">(time)</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, perferendis?
+                    </p>
+                </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- SPONSORS -->
+
+    <section id="sponsors-section" class="sponsors-section">
+
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section>
+        <div class="wrapper">
+            <div class="container-faq">
+                <div class="left-contents">
+                    <div class="img">
+                            <img src="assets/illustration-woman-online-desktop.svg" alt="" class="desktop">
+                            <img src="assets/illustration-woman-online-mobile.svg" alt=""class="mobile">
+                    </div>
+                </div>
+                
+                <div class="right-contents">
+                    <h2>FAQ</h2>
+                        <div class="question" onclick="faqSwitch(this)">
+                            <div class="qn-head">
+                                <h4> How many team members can I invite? </h4>
+                                <img src="assets/icon-arrow-down.svg" alt="" class="imgs"> 
+                            </div>
+                            <p class="answer">
+                                Answer to question 1. Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p> 
+                        </div>
+                        <div class="dividers"></div>
+                        <div class="question" onclick="faqSwitch(this)">
+                            <div class="qn-head">
+                                <h4> Can we participate individually ?</h4>
+                                <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
+                            </div>
+                            <p class="answer">
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit
+                            </p>
+                        </div>
+                        <div class="dividers"></div>
+                        <div class="question" onclick="faqSwitch(this)">
+                            <div class="qn-head">
+                                <h4> What is meant by BVPIEEE </h4>
+                                <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
+                            </div>
+                            <p class="answer">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam
+                            </p>
+                        </div>
+                        <div class="dividers"></div>
+                        <div class="question" onclick="faqSwitch(this)">
+                            <div class="qn-head">
+                                <h4> Is there any participation fee ? </h4>
+                                <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
+                            </div>
+                            <p class="answer">
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam.
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit, 
+                            </p>
+                        </div>
+                        <div class="dividers"></div>
+                        <div class="question" onclick="faqSwitch(this)">
+                            <div class="qn-head">
+                                <h4> On what basis will the initial screening take place ?</h4>
+                                <img src="assets/icon-arrow-down.svg" alt="" class="imgs">
+                            </div>
+                            <p class="answer">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam.
+                            </p>
+                        </div>
+                        <div class="dividers"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <section id="footer-section" class="footer-section">
+
+        <footer class="text-center text-lg-start" style="background-color: #de7a22;">
+        <div class="container d-flex justify-content-center py-5">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+            <i class="fa fa-facebook-f"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+            <i class="fa fa-youtube"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+            <i class="fa fa-instagram"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+            <i class="fa fa-twitter"></i>
+            </button>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="">Plan2hack</a>
+        </div>
+        <!-- Copyright -->
+        </footer>
+
+    </section>
+
 </body>
-  <script src="js/faq.js"></script>
 </html>

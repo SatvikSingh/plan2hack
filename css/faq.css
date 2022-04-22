@@ -11,7 +11,8 @@ body
     font-family: 'Kumbh Sans', sans-serif;
     color: hsl(238, 29%, 16%);
     background-color: #20948B;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 h4
@@ -35,7 +36,7 @@ h2
     width: 100vw;
     height: 100vh;
 }
-.container
+.container-faq
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -133,7 +134,7 @@ h2
         transform: scale(.9);
         margin: 0 -150px;
     }
-    .container
+    .container-faq
     { 
         padding: 3rem 1rem;
         background-image: none;
@@ -154,14 +155,14 @@ h2
 
   .left-contents{display: none;}
 
-  .container
+  .container-faq
   {
       width: 75%;
       padding: 2rem 2rem 2rem 2rem;
       display: block;
       background-image: none;
   }
-  .container::before{
+  .container-faq::before{
     content: url("../assets/illustration-woman-online-mobile.svg") ;
     position: relative; 
     top: 0%;
@@ -178,10 +179,13 @@ h2
 /* mobile-phones */
 @media  (max-width: 500px ) 
 {
-    body{overflow: auto;}
+    body{
+        overflow: auto;
+        overflow-x: hidden;
+    }
     h2{text-align: center;}
      
-    .container
+    .container-faq
     {
         display: block;
         width: 95%;
@@ -190,7 +194,7 @@ h2
         background-size: cover;
     }
 
-     .container::before{
+     .container-faq::before{
         content: url("../assets/illustration-woman-online-mobile.svg") ;
         position: relative; 
     
