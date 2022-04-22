@@ -1,6 +1,7 @@
 
 .timeline-section {
-  margin-top: 13%;
+  margin-top: 7%;
+  margin-bottom: 10%;
   background-color: #ffffff;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .event-timeline-name{
-  margin: auto;
+  margin: 50px auto auto auto;
   padding: 5px;
   background-color: #f4cc70;
   text-align: center;

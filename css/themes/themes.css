@@ -15,8 +15,13 @@
     display: flex;
     min-height: 100%;
     justify-content: space-between;
-    padding: var(--spacing-xxl) var(--spacing-l);
-      background-color: #20948B;
+    padding: 0px var(--spacing-l) var(--spacing-xxl) var(--spacing-l);
+    background-color: #20948B;
+  }
+
+  .themes-heading{
+    background-color: #20948B;
+    color: white !important;
   }
 
   .card-grid{
@@ -27,7 +32,7 @@
     max-width: var(--width-container);
     width: 100%;
     margin-left: 5%;
-    margin-top: 9%;
+    margin-top: 5%;
   }
 
   @media(min-width: 540px){
