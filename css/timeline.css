@@ -20,13 +20,12 @@
   background-color: #f4cc70;
   text-align: center;
   border-radius: 10px;
-  width: 500px;
+  width: 100%;
 }
 
 .timeline {
   position: relative;
   width: 100%;
-  max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
 }
