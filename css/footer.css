@@ -1,0 +1,19 @@
+.footer-section{
+    margin-top: 10px !important;
+    z-index: 10;
+}
+
+
+
+/* tablets */
+@media  (max-width: 1000px ) {
+
+}
+
+/* mobile-phones */
+@media  (max-width: 500px ) {
+
+    .footer-section{
+        margin-top: 10rem !important;
+    }
+}
