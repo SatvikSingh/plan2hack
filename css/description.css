@@ -100,9 +100,24 @@
   }
 }
 
+
+@media screen and (max-width: 1300px) {
+  .item{
+    margin: 1% 0 4% 4.5%;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .item{
+    margin: 1% 0 4% 0.75%;
+  }
+}
+
 @media screen and (max-width:600px) {
   .item {
     margin-top: auto;
     margin-bottom: 7%;
   }
 }
+
