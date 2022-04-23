@@ -137,8 +137,9 @@ h2
     bottom: 5%;
     left: 40%;
 }
+
 /* laptop */
-@media  (max-width: 1030px )
+@media  (max-width: 1150px )
 {   
     .wrapper{
         height: 80vh;

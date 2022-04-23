@@ -81,6 +81,6 @@
 @media  (max-width: 500px ) {
 
     .footer-section{
-        margin-top: 10rem !important;
+        margin-top: 10rem;
     }
 }
