@@ -139,7 +139,7 @@ h2
 }
 
 /* laptop */
-@media  (max-width: 1150px )
+@media  (max-width: 1500px )
 {   
     .wrapper{
         height: 100vh;
