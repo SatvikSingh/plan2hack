@@ -1,8 +1,8 @@
 
 .timeline-section {
-  margin-top: 7%;
-  margin-bottom: 10%;
-  background-color: #ffffff;
+  padding-top: 4.5%;
+  padding-bottom: 10%;
+  background: linear-gradient(to bottom right, white, #fff7e3);;
 }
 
 .timeline-heading{
@@ -16,12 +16,13 @@
 
 .event-timeline-name{
   margin: 65px auto auto auto;
-  padding: 5px;
+  padding: 10px;
   background-color: #f4cc70;
   text-align: center;
   border-radius: 10px;
-  width: 25%;
+  width: 35%;
   font-family: 'Poppins', sans-serif;
+  font-size: 2.75rem;
 }
 
 .timeline {
@@ -51,11 +52,14 @@
 
 .timeline-container.left {
   left: 0;
+  padding: 15px 30px 15px 150px;
 }
 
 .timeline-container.right {
   left: 50%;
+  padding: 15px 150px 15px 30px;
 }
+
 
 .timeline-container::after {
   content: '';
@@ -173,6 +177,20 @@
   color: #000000;
 }
 
+
+@media screen and (max-width: 1000) {
+  .timeline-container.left {
+    left: 0;
+    padding: 15px 30px;
+  }
+  
+  .timeline-container.right {
+    left: 50%;
+    padding: 15px 30px;
+  }
+
+}  
+
 @media (max-width: 800px) {
   .timeline::after {
     left: 90px;
@@ -180,8 +198,8 @@
 
   .timeline-container {
     width: 100%;
-    padding-left: 120px;
-    padding-right: 30px;
+    padding-left: 120px !important;
+    padding-right: 30px !important;
   }
 
 
@@ -215,11 +233,17 @@
 
   .timeline-container.left .content,
   .timeline-container.right .content {
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 30px 90px !important;
     border-radius: 500px 0 0 500px;
+  }
+
+  .event-timeline-name{
+    width: 80%;
+    font-size: 2rem;
   }
 }
 
 .agenda, .timing{
   font-weight: bold !important;
 }
+
