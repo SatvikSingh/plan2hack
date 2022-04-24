@@ -311,5 +311,10 @@
 @media screen and (max-width: 500px) {
   .sponsors{
     margin-bottom: 0px;
+    padding: 2px 15px;
+  }
+
+  .past-sponsors{
+    padding: 2px 15px;
   }
 }
