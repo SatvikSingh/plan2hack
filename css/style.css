@@ -28,7 +28,7 @@
   }
   
   .sponsors {
-    margin-top: 30px;
+    padding-top: 4.5%;
     margin-bottom: -65px;
   }
 
@@ -308,4 +308,8 @@
 
 
   
-  
+@media screen and (max-width: 500px) {
+  .sponsors{
+    margin-bottom: 0px;
+  }
+}
