@@ -12,7 +12,7 @@ body {
 
 .themes-section {
     height: 109vh;
-    margin-top: 150px;
+    /*margin-top: 150px;*/
     background: -webkit-linear-gradient(to bottom right, #20948B, #6AB187);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom right, #20948B, #6AB187); 
     flex-direction: column;
