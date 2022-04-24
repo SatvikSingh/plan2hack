@@ -11,7 +11,7 @@ body {
 }
 
 .themes-section {
-    height: 109vh;
+    height: 100vh;
     /*margin-top: 150px;*/
     background: -webkit-linear-gradient(to bottom right, #20948B, #6AB187);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom right, #20948B, #6AB187); 
@@ -20,7 +20,7 @@ body {
     align-items: center;
     font-size: 1.35rem;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 4.5%;
   }
   
   #themes {
@@ -246,6 +246,7 @@ body {
         overflow: hidden;
         background-color: -webkit-linear-gradient(to bottom right, #050e3b, #33032f);;
         
+
         /*Time for some styling*/
         margin: 100px auto;
         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -331,7 +332,8 @@ body {
         width: 640px; height: 210px;
         overflow: hidden;
         background-color: -webkit-linear-gradient(to bottom right, #050e3b, #33032f);
-        
+        margin-left: -3% !important;
+
         /*Time for some styling*/
         margin: 100px auto;
         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -407,7 +409,8 @@ body {
         width: 640px; height: 180px;
         overflow: hidden;
         background-color: -webkit-linear-gradient(to bottom right, #050e3b, #33032f);
-        
+        margin-left: -3% !important;
+
         /*Time for some styling*/
         margin: 100px auto;
         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
