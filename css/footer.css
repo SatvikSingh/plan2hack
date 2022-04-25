@@ -72,6 +72,14 @@
     text-decoration: underline;
   }
 
+#team-href:link{
+  color: #61b187;
+}
+
+#team-href{
+  color: #61b187;
+}
+
 /* tablets */
 @media  (max-width: 1000px ) {
 
