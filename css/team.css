@@ -2,17 +2,21 @@
     color: white;
 }
 
+.icon-bg-2{
+    background-color: grey;
+}
+
 .icon-bg{
     background-color: rgb(16, 149, 215);
 }
 
 .img-border{
-    border: 2.5px solid #20948b;
+    border: 5px solid #20948b;
     margin-bottom: 10px;
 }
 
 .img-border-2{
-    border: 2.5px solid #de7a22;
+    border: 5px solid #de7a22;
     margin-bottom: 10px;
 }
 
