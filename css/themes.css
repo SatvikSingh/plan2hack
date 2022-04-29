@@ -99,7 +99,7 @@ body {
 
   
 .accordian {
-	width: 1290px; height: 320px;
+	width: 1451.25px; height: 320px;
 	overflow: hidden;
 	
 	/*Time for some styling*/
@@ -400,7 +400,7 @@ body {
       }
       .image_title a {
         display: block;
-        color: #fff;
+        color: #fff !;
         text-decoration: none;
         padding: 10px;
         font-size: 16px;
@@ -412,7 +412,7 @@ body {
         width: 640px; height: 180px;
         overflow: hidden;
         background-color: -webkit-linear-gradient(to bottom right, #050e3b, #33032f);
-        margin-left: -3% !important;
+        margin-left: -6% !important;
 
         /*Time for some styling*/
         margin: 100px auto;
@@ -475,6 +475,8 @@ body {
         width: 640px;	
       
       }
+
+
       .image_title a {
         display: block;
         color: #fff;
