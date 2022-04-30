@@ -143,6 +143,7 @@ h2
 {   
     .wrapper{
         height: 100vh;
+        margin-bottom: 18rem;
     }
     .img
     { 
@@ -167,6 +168,7 @@ h2
 {
   .wrapper{
     height: 100vh;
+    margin-bottom: 18rem;
   }
    h2{text-align: center;
         padding: 0;}
@@ -200,6 +202,7 @@ h2
     
     .wrapper{
       height: 100vh;
+      margin-bottom: 25rem;
     }
     body{
         overflow: auto;
