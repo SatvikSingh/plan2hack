@@ -99,7 +99,7 @@ body {
 
   
 .accordian {
-	width: 1451.25px; height: 320px;
+	width: 1290px; height: 320px;
 	overflow: hidden;
 	
 	/*Time for some styling*/
@@ -119,7 +119,7 @@ body {
 .accordian li {
 	position: relative;
 	display: block;
-	width: 160px;
+	width: 143px;
 	float: left;
 	
 	border-left: 1px solid #888;
