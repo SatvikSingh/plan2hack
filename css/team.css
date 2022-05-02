@@ -23,11 +23,12 @@
 
 .team-container{
     font-family: 'Poppins', sans-serif;
-    background: #fffbf3;
+    background: #fffbf300;
 }
 
 .member-name{
     font-size: 1.4rem !important;
+    color: white;
 }
 
 .member-designation{
