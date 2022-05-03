@@ -24,20 +24,26 @@
   border: 1px solid black;
 }
 
-.item:hover {
-  background-color: #f4cc70;
-  color: white;
-  transform: translateY(-15px);
-  color: black;
-}
-.item:hover .box-head{
-  color: white;
-  font-weight: 700;
+.item-2{
+  background-color: rgb(241, 241, 241);
 }
 
-.item:hover .main-text{
+.item:hover, .item-2:hover {
+  background-color: #f4cc70;
+  /*color: white;*/
+  transform: translateY(-15px);
+  /*color: black;*/
+}
+.item:hover .box-head, .item-2:hover .box-head{
+  color: white !important;
+  font-weight: 700 !important;
+}
+
+.item:hover .main-text, .item-2:hover .box-head{
   color: black;
 }
+
+
 
 .container-des {
   margin-top: 5%;
